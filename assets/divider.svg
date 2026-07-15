@@ -1,0 +1,13 @@
+<svg width="1200" height="18" viewBox="0 0 1200 18" fill="none" xmlns="http://www.w3.org/2000/svg" role="presentation">
+  <defs>
+    <linearGradient id="dl" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#14E3C7" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#38BDF8" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#14E3C7" stop-opacity="0"/>
+    </linearGradient>
+    <style>@keyframes m{to{stroke-dashoffset:-260}}.f{stroke-dasharray:3 9;animation:m 4s linear infinite}</style>
+  </defs>
+  <line x1="0" y1="9" x2="1200" y2="9" stroke="url(#dl)" stroke-width="1.4"/>
+  <line class="f" x1="0" y1="9" x2="1200" y2="9" stroke="#BFFCF0" stroke-width="1.2" stroke-opacity="0.6"/>
+  <circle r="2.4" fill="#7FFFE8"><animateMotion dur="4s" repeatCount="indefinite" path="M0 9 H1200"/></circle>
+</svg>
