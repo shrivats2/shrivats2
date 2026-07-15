@@ -34,17 +34,17 @@
 
   <!-- kicker -->
   <rect x="72" y="62" width="8" height="8" fill="#C24326"/>
-  <text class="mono" x="90" y="70" font-size="12" letter-spacing="3" fill="#726A57">FOUNDER-ENGINEER</text>
+  <text class="mono" x="90" y="70" font-size="12" letter-spacing="3" fill="#726A57">AI INFRASTRUCTURE</text>
 
   <!-- name -->
   <text class="name" x="70" y="156" font-size="64">Shrivats Shrivastav</text>
 
   <!-- positioning -->
-  <text class="body" x="72" y="196" font-size="17" fill="#4A4436">Production AI infrastructure in stealth, and real-money financial execution.</text>
+  <text class="body" x="72" y="196" font-size="17" fill="#4A4436">Usage accounting, budgets, and audit for AI systems, and the infrastructure underneath.</text>
 
   <!-- rule -->
   <line x1="72" y1="220" x2="760" y2="220" stroke="#17130B" stroke-width="1" opacity="0.25"/>
 
   <!-- spec line -->
-  <text class="mono" x="72" y="244" font-size="12" letter-spacing="1" fill="#726A57">SYSTEMS ON THE CRITICAL PATH  ·  RELIABILITY  ·  0 → 1</text>
+  <text class="mono" x="72" y="244" font-size="12" letter-spacing="1" fill="#726A57">AI USAGE LEDGER  ·  GOVERNANCE  ·  RELIABILITY</text>
 </svg>
