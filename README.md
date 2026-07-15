@@ -1,8 +1,8 @@
 <!-- github.com/shrivats2 · profile README. Visuals are hand-authored SVG in /assets. -->
 
-<img src="assets/hero.svg" alt="Shrivats Shrivastav — AI infrastructure, usage accounting and governance" width="100%" />
+<img src="assets/hero.svg" alt="Shrivats Shrivastav — AI infrastructure, spend governance in the request path" width="100%" />
 
-I build systems end to end and run them in production. Most of my work is the accounting and governance layer for AI: metering usage, enforcing budgets and limits, keeping an audit trail, and the real-time infrastructure it all runs on.
+I build systems end to end and run them in production. Most of my work is spend governance for AI: deciding what a request should do before it reaches the provider, keeping variable model cost from breaking fixed-price economics, and the real-time infrastructure it all runs on.
 
 I like the parts most people skip: what happens when a request is interrupted, a provider fails, or the same event arrives twice.
 
@@ -12,14 +12,14 @@ I like the parts most people skip: what happens when a request is interrupted, a
 
 ## Now
 
-**AI usage accounting and governance.** The ledger and controls that sit around streamed model requests:
+**AI spend governance.** Real-time controls that decide what an AI request should do before it reaches the provider:
 
-- A usage ledger for streamed requests: reserve, finalize, reconcile, including interrupted or incomplete responses
-- Budgets, rate limits, and spend controls in the request path
-- Multi-tenant access control and policy
-- An append-only audit trail
-- Provider-independent request and streaming abstractions
-- Health-aware routing, with guards against latency and runaway cost
+- Pre-execution policy in the request path: allow, cap, downgrade, reroute, cache, or fall back
+- Per-tenant budgets, rate limits, and usage attribution
+- Spend and margin controls that keep variable model cost from breaking fixed-price economics
+- Provider-independent routing across model providers, aware of health and cost
+- Usage metering and reconciliation for streamed, interrupted, or incomplete requests
+- Multi-tenant access control, policy, and an append-only audit trail
 
 **Real-time and financial systems.** Order flow and live state across backend and broker integrations:
 
@@ -34,17 +34,9 @@ I like the parts most people skip: what happens when a request is interrupted, a
 
 Keep policy, identity, and accounting off the hot path. Let bytes stream with as little added latency as you can manage. The figure above is a generalized, synthetic illustration rather than any real system, but it's how I approach anything that sits on a critical path.
 
-## Systems
+## Activity
 
-Independent builds on synthetic workloads.
-
-| System | What it is | Stack | Status |
-|---|---|---|---|
-| **LLM Usage Ledger** | Idempotent usage accounting for streamed and interrupted model requests: reservations, finalization, reconciliation | `Go` `Postgres` | planned |
-| **Streaming AI Systems Lab** | Reference implementations and failure simulations for streaming gateways: budgets and governance, cancellation, retry boundaries, health-aware routing | `Go` `TS` `Postgres` `Redis` | building in public |
-| **Reliable Order Engine** | Broker-agnostic execution simulator: duplicate delivery, partial fills, timeouts, dead-letter recovery, reconciliation | `Go` `Rust` `Postgres` `Redis Streams` | planned |
-| **[Zapstream](https://github.com/shrivats2/zapstream)** | Live-streaming app rebuilt as a production case study: token and room access, reconnection, webhook lifecycle, measured recovery | `TS` `WebRTC` `Node` | rebuild in progress |
-| **Shipcheck** | Production-readiness CLI: health and readiness checks, graceful shutdown, migrations, secret hygiene, logging and tracing, CI, runbooks | `Go` `CLI` `Actions` | planned |
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=shrivats2&bg_color=E7E0CF&color=17130B&line=C24326&point=17130B&title_color=17130B&hide_border=true&custom_title=Contribution%20activity" alt="Contribution activity graph" width="100%" />
 
 ## Stack
 
