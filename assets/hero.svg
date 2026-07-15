@@ -1,81 +1,50 @@
-<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Shrivats Krishna Shrivastav — founder-engineer, systems on the critical path">
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Shrivats Shrivastav — founder-engineer, systems on the critical path">
   <defs>
-    <!-- ordered (Bayer 4x4) dither tiles, cell = 4px -->
-    <pattern id="d25" width="16" height="16" patternUnits="userSpaceOnUse" shape-rendering="crispEdges">
-      <rect x="0" y="0" width="4" height="4" fill="#17130B"/><rect x="8" y="0" width="4" height="4" fill="#17130B"/>
-      <rect x="0" y="8" width="4" height="4" fill="#17130B"/><rect x="8" y="8" width="4" height="4" fill="#17130B"/>
-    </pattern>
-    <pattern id="d50" width="16" height="16" patternUnits="userSpaceOnUse" shape-rendering="crispEdges">
-      <rect x="0" y="0" width="4" height="4" fill="#17130B"/><rect x="8" y="0" width="4" height="4" fill="#17130B"/>
-      <rect x="4" y="4" width="4" height="4" fill="#17130B"/><rect x="12" y="4" width="4" height="4" fill="#17130B"/>
-      <rect x="0" y="8" width="4" height="4" fill="#17130B"/><rect x="8" y="8" width="4" height="4" fill="#17130B"/>
-      <rect x="4" y="12" width="4" height="4" fill="#17130B"/><rect x="12" y="12" width="4" height="4" fill="#17130B"/>
-    </pattern>
-    <pattern id="d75" width="16" height="16" patternUnits="userSpaceOnUse" shape-rendering="crispEdges">
-      <rect x="0" y="0" width="4" height="4" fill="#17130B"/><rect x="4" y="0" width="4" height="4" fill="#17130B"/><rect x="8" y="0" width="4" height="4" fill="#17130B"/><rect x="12" y="0" width="4" height="4" fill="#17130B"/>
-      <rect x="4" y="4" width="4" height="4" fill="#17130B"/><rect x="12" y="4" width="4" height="4" fill="#17130B"/>
-      <rect x="0" y="8" width="4" height="4" fill="#17130B"/><rect x="4" y="8" width="4" height="4" fill="#17130B"/><rect x="8" y="8" width="4" height="4" fill="#17130B"/><rect x="12" y="8" width="4" height="4" fill="#17130B"/>
-      <rect x="4" y="12" width="4" height="4" fill="#17130B"/><rect x="12" y="12" width="4" height="4" fill="#17130B"/>
-    </pattern>
+    <pattern id="d2"  width="16" height="16" patternUnits="userSpaceOnUse" shape-rendering="crispEdges"><rect x="0" y="0" width="4" height="4" fill="#17130B"/><rect x="8" y="8" width="4" height="4" fill="#17130B"/></pattern>
+    <pattern id="d4"  width="16" height="16" patternUnits="userSpaceOnUse" shape-rendering="crispEdges"><rect x="0" y="0" width="4" height="4" fill="#17130B"/><rect x="8" y="0" width="4" height="4" fill="#17130B"/><rect x="0" y="8" width="4" height="4" fill="#17130B"/><rect x="8" y="8" width="4" height="4" fill="#17130B"/></pattern>
+    <pattern id="d6"  width="16" height="16" patternUnits="userSpaceOnUse" shape-rendering="crispEdges"><rect x="0" y="0" width="4" height="4" fill="#17130B"/><rect x="8" y="0" width="4" height="4" fill="#17130B"/><rect x="0" y="8" width="4" height="4" fill="#17130B"/><rect x="8" y="8" width="4" height="4" fill="#17130B"/><rect x="4" y="4" width="4" height="4" fill="#17130B"/><rect x="12" y="12" width="4" height="4" fill="#17130B"/></pattern>
+    <pattern id="d8"  width="16" height="16" patternUnits="userSpaceOnUse" shape-rendering="crispEdges"><rect x="0" y="0" width="4" height="4" fill="#17130B"/><rect x="8" y="0" width="4" height="4" fill="#17130B"/><rect x="0" y="8" width="4" height="4" fill="#17130B"/><rect x="8" y="8" width="4" height="4" fill="#17130B"/><rect x="4" y="4" width="4" height="4" fill="#17130B"/><rect x="12" y="12" width="4" height="4" fill="#17130B"/><rect x="12" y="4" width="4" height="4" fill="#17130B"/><rect x="4" y="12" width="4" height="4" fill="#17130B"/></pattern>
+    <pattern id="d10" width="16" height="16" patternUnits="userSpaceOnUse" shape-rendering="crispEdges"><rect x="0" y="0" width="4" height="4" fill="#17130B"/><rect x="8" y="0" width="4" height="4" fill="#17130B"/><rect x="0" y="8" width="4" height="4" fill="#17130B"/><rect x="8" y="8" width="4" height="4" fill="#17130B"/><rect x="4" y="4" width="4" height="4" fill="#17130B"/><rect x="12" y="12" width="4" height="4" fill="#17130B"/><rect x="12" y="4" width="4" height="4" fill="#17130B"/><rect x="4" y="12" width="4" height="4" fill="#17130B"/><rect x="4" y="0" width="4" height="4" fill="#17130B"/><rect x="12" y="8" width="4" height="4" fill="#17130B"/></pattern>
+    <pattern id="d12" width="16" height="16" patternUnits="userSpaceOnUse" shape-rendering="crispEdges"><rect x="0" y="0" width="4" height="4" fill="#17130B"/><rect x="8" y="0" width="4" height="4" fill="#17130B"/><rect x="0" y="8" width="4" height="4" fill="#17130B"/><rect x="8" y="8" width="4" height="4" fill="#17130B"/><rect x="4" y="4" width="4" height="4" fill="#17130B"/><rect x="12" y="12" width="4" height="4" fill="#17130B"/><rect x="12" y="4" width="4" height="4" fill="#17130B"/><rect x="4" y="12" width="4" height="4" fill="#17130B"/><rect x="4" y="0" width="4" height="4" fill="#17130B"/><rect x="12" y="8" width="4" height="4" fill="#17130B"/><rect x="12" y="0" width="4" height="4" fill="#17130B"/><rect x="4" y="8" width="4" height="4" fill="#17130B"/></pattern>
+    <pattern id="d14" width="16" height="16" patternUnits="userSpaceOnUse" shape-rendering="crispEdges"><rect x="0" y="0" width="4" height="4" fill="#17130B"/><rect x="8" y="0" width="4" height="4" fill="#17130B"/><rect x="0" y="8" width="4" height="4" fill="#17130B"/><rect x="8" y="8" width="4" height="4" fill="#17130B"/><rect x="4" y="4" width="4" height="4" fill="#17130B"/><rect x="12" y="12" width="4" height="4" fill="#17130B"/><rect x="12" y="4" width="4" height="4" fill="#17130B"/><rect x="4" y="12" width="4" height="4" fill="#17130B"/><rect x="4" y="0" width="4" height="4" fill="#17130B"/><rect x="12" y="8" width="4" height="4" fill="#17130B"/><rect x="12" y="0" width="4" height="4" fill="#17130B"/><rect x="4" y="8" width="4" height="4" fill="#17130B"/><rect x="0" y="4" width="4" height="4" fill="#17130B"/><rect x="8" y="12" width="4" height="4" fill="#17130B"/></pattern>
     <style>
-      .name { font-family: 'Arial Narrow','Helvetica Neue',Arial,sans-serif; font-weight: 800; fill:#17130B; letter-spacing:-1px; }
+      .name { font-family:'Helvetica Neue','Segoe UI',Arial,sans-serif; font-weight:700; fill:#17130B; letter-spacing:-1.5px; }
       .mono { font-family: ui-monospace,'SF Mono','Cascadia Mono','Consolas',monospace; }
+      .body { font-family:'Helvetica Neue','Segoe UI',Arial,sans-serif; }
     </style>
   </defs>
 
-  <!-- paper -->
-  <rect width="1200" height="320" fill="#E7E0CF"/>
+  <rect width="1200" height="300" fill="#E7E0CF"/>
 
-  <!-- crop marks -->
-  <g stroke="#17130B" stroke-width="1" opacity="0.55">
-    <path d="M32 48 V32 H48" fill="none"/>
-    <path d="M1168 48 V32 H1152" fill="none"/>
-    <path d="M32 272 V288 H48" fill="none"/>
-    <path d="M1168 272 V288 H1152" fill="none"/>
+  <!-- dithered fore-edge: smooth Bayer fade bleeding off the right -->
+  <g>
+    <rect x="862"  y="0" width="42" height="300" fill="url(#d2)"/>
+    <rect x="904"  y="0" width="42" height="300" fill="url(#d4)"/>
+    <rect x="946"  y="0" width="42" height="300" fill="url(#d6)"/>
+    <rect x="988"  y="0" width="42" height="300" fill="url(#d8)"/>
+    <rect x="1030" y="0" width="42" height="300" fill="url(#d10)"/>
+    <rect x="1072" y="0" width="42" height="300" fill="url(#d12)"/>
+    <rect x="1114" y="0" width="42" height="300" fill="url(#d14)"/>
+    <rect x="1156" y="0" width="44" height="300" fill="#17130B"/>
   </g>
+  <text class="mono" x="1180" y="288" text-anchor="end" font-size="10" letter-spacing="2" fill="#E7E0CF">1-BIT</text>
 
-  <!-- top register line -->
-  <g class="mono" font-size="11" letter-spacing="1.5" fill="#726A57">
-    <text x="64" y="53">PROFILE / SHRIVATS2</text>
-    <text x="1136" y="53" text-anchor="end">REV 2026.07</text>
-  </g>
+  <!-- frame -->
+  <rect x="0.5" y="0.5" width="1199" height="299" fill="none" stroke="#17130B" stroke-width="1" opacity="0.3"/>
+
+  <!-- kicker -->
+  <rect x="72" y="62" width="8" height="8" fill="#C24326"/>
+  <text class="mono" x="90" y="70" font-size="12" letter-spacing="3" fill="#726A57">FOUNDER-ENGINEER</text>
 
   <!-- name -->
-  <text class="name" x="62" y="152" font-size="66">SHRIVATS KRISHNA</text>
-  <text class="name" x="62" y="216" font-size="66">SHRIVASTAV</text>
+  <text class="name" x="70" y="156" font-size="64">Shrivats Shrivastav</text>
 
-  <!-- tagline -->
-  <text class="mono" x="64" y="250" font-size="14" letter-spacing="0.5" fill="#413B2E">FOUNDER-ENGINEER · SYSTEMS ON THE CRITICAL PATH</text>
+  <!-- positioning -->
+  <text class="body" x="72" y="196" font-size="17" fill="#4A4436">Production AI infrastructure in stealth, and real-money financial execution.</text>
 
   <!-- rule -->
-  <line x1="64" y1="270" x2="1136" y2="270" stroke="#17130B" stroke-width="1" opacity="0.35"/>
+  <line x1="72" y1="220" x2="760" y2="220" stroke="#17130B" stroke-width="1" opacity="0.25"/>
 
-  <!-- spec fields -->
-  <g class="mono" font-size="12" letter-spacing="0.4" fill="#59513F">
-    <text x="64" y="292">AI INFRASTRUCTURE / FINTECH EXECUTION</text>
-    <rect x="452" y="283.5" width="9" height="9" fill="#C24326"/>
-    <text x="468" y="292" fill="#413B2E">OPERATING IN STEALTH</text>
-    <text x="672" y="292">BASED IN INDIA</text>
-  </g>
-
-  <!-- ordered-dither tone scale (the 'knows the metal' detail) -->
-  <g>
-    <rect x="820" y="64" width="316" height="168" fill="#E7E0CF" stroke="#17130B" stroke-width="1"/>
-    <rect x="820" y="64" width="63.2" height="168" fill="#E7E0CF"/>
-    <rect x="883.2" y="64" width="63.2" height="168" fill="url(#d25)"/>
-    <rect x="946.4" y="64" width="63.2" height="168" fill="url(#d50)"/>
-    <rect x="1009.6" y="64" width="63.2" height="168" fill="url(#d75)"/>
-    <rect x="1072.8" y="64" width="63.2" height="168" fill="#17130B"/>
-    <g stroke="#17130B" stroke-width="1" opacity="0.3">
-      <line x1="883.2" y1="64" x2="883.2" y2="232"/>
-      <line x1="946.4" y1="64" x2="946.4" y2="232"/>
-      <line x1="1009.6" y1="64" x2="1009.6" y2="232"/>
-      <line x1="1072.8" y1="64" x2="1072.8" y2="232"/>
-    </g>
-  </g>
-  <g class="mono" font-size="10" letter-spacing="1" fill="#726A57">
-    <text x="820" y="248">0</text>
-    <text x="978" y="248" text-anchor="middle">ORDERED DITHER · 1-BIT</text>
-    <text x="1136" y="248" text-anchor="end">1</text>
-  </g>
+  <!-- spec line -->
+  <text class="mono" x="72" y="244" font-size="12" letter-spacing="1" fill="#726A57">SYSTEMS ON THE CRITICAL PATH  ·  RELIABILITY  ·  0 → 1</text>
 </svg>
