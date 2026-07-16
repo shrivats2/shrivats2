@@ -30,8 +30,6 @@ I'm Shrivats. I build software systems, mostly the kind that sit quietly on a cr
 
 A rule of thumb I keep coming back to: keep policy and accounting off the hot path, and let the actual work stream through with as little added latency as possible. The figure is a generic, made-up illustration, not any real system.
 
-<img src="assets/contributions.svg" alt="Contribution heatmap — 356 contributions in the last year" width="100%" />
-
 <img src="assets/toolkit.svg" alt="Toolkit — languages, systems, and platform I reach for" width="100%" />
 
 <img src="assets/divider.svg" alt="" width="100%" />
