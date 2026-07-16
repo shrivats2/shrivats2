@@ -1,44 +1,40 @@
 <!-- github.com/shrivats2 · profile README. Visuals are hand-authored SVG in /assets. -->
 
-<img src="assets/hero.svg" alt="Shrivats Shrivastav — AI infrastructure, spend governance in the request path" width="100%" />
+<img src="assets/hero.svg" alt="Shrivats Shrivastav — AI infrastructure, systems on the critical path" width="100%" />
 
-I build systems end to end and run them in production. Most of my work is spend governance for AI: deciding what a request should do before it reaches the provider, keeping variable model cost from breaking fixed-price economics, and the real-time infrastructure it all runs on.
+> *"Everything fails, all the time."*
+> — Werner Vogels
 
-I like the parts most people skip: what happens when a request is interrupted, a provider fails, or the same event arrives twice.
-
-[shrivatskrishna25@gmail.com](mailto:shrivatskrishna25@gmail.com) &nbsp;·&nbsp; [github.com/shrivats2](https://github.com/shrivats2)
+I'm Shrivats. I build software systems, mostly the kind that sit quietly on a critical path and have to keep working. I care more about a system being correct and calm under load than about it being clever.
 
 <img src="assets/divider.svg" alt="" width="100%" />
 
-## Now
+## What I like
 
-**AI spend governance.** Real-time controls that decide what an AI request should do before it reaches the provider:
+- The unglamorous parts: what happens when a request is interrupted, a provider goes down, or the same event shows up twice
+- Keeping AI systems reliable and affordable, not just working in a demo
+- Real-time and event-driven systems
+- Simple, boring designs that are easy to reason about at 3am
 
-- Pre-execution policy in the request path: allow, cap, downgrade, reroute, cache, or fall back
-- Per-tenant budgets, rate limits, and usage attribution
-- Spend and margin controls that keep variable model cost from breaking fixed-price economics
-- Provider-independent routing across model providers, aware of health and cost
-- Usage metering and reconciliation for streamed, interrupted, or incomplete requests
-- Multi-tenant access control, policy, and an append-only audit trail
+## What I can do
 
-**Real-time and financial systems.** Order flow and live state across backend and broker integrations:
-
-- Order-lifecycle tracking and real-time state
-- Idempotency, duplicate-event handling, dead-letter recovery, reconciliation
-- Broker integrations and secure onboarding
-- Monitoring, deploys, and incident response on AWS
+- Take something from a rough problem to running, deployed, and monitored
+- AI usage and spend governance: budgets, routing, metering, and audit around model requests
+- Reliability plumbing: idempotency, dead-letter recovery, reconciliation, graceful failure
+- Real-time and event-driven systems, including order and financial flow
+- Backend and infrastructure, deploys, and the boring production support that keeps it all up
 
 ## How I think about it
 
-<img src="assets/architecture.svg" alt="Control plane / data plane separation for a streaming gateway" width="100%" />
+<img src="assets/architecture.svg" alt="Keeping policy and accounting off the hot path in a streaming gateway" width="100%" />
 
-Keep policy, identity, and accounting off the hot path. Let bytes stream with as little added latency as you can manage. The figure above is a generalized, synthetic illustration rather than any real system, but it's how I approach anything that sits on a critical path.
+A rule of thumb I keep coming back to: keep policy and accounting off the hot path, and let the actual work stream through with as little added latency as possible. The figure is a generic, made-up illustration, not any real system.
 
-## Activity
+## A bit of activity
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=shrivats2&bg_color=E7E0CF&color=17130B&line=C24326&point=17130B&title_color=17130B&hide_border=true&custom_title=Contribution%20activity" alt="Contribution activity graph" width="100%" />
 
-## Stack
+## Tools I reach for
 
 | | |
 |---|---|
@@ -47,5 +43,3 @@ Keep policy, identity, and accounting off the hot path. Let bytes stream with as
 | **Platform** | `AWS` &nbsp; `Docker` &nbsp; `CI/CD` &nbsp; `OpenTelemetry` |
 
 <img src="assets/divider.svg" alt="" width="100%" />
-
-<sub>[shrivatskrishna25@gmail.com](mailto:shrivatskrishna25@gmail.com) &nbsp;·&nbsp; [github.com/shrivats2](https://github.com/shrivats2)</sub>
