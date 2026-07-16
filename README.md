@@ -24,6 +24,14 @@ I'm Shrivats. I build software systems, mostly the kind that sit quietly on a cr
 - Real-time and event-driven systems, including order and financial flow
 - Backend and infrastructure, deploys, and the boring production support that keeps it all up
 
+## Something I built
+
+<a href="https://github.com/shrivats2/oncekit">
+  <img src="assets/oncekit.svg" alt="oncekit — exactly-once processing for webhooks, events, and jobs" width="100%" />
+</a>
+
+**[oncekit](https://github.com/shrivats2/oncekit)** — every API tells you to "make your webhook handler idempotent." This is that advice as an actual library: dedupe, crash recovery via leases, and dead-letter handling in one call. Zero-dependency core, a durable Postgres store tested against real Postgres in CI, and an honest design doc on what "exactly-once" really guarantees. `TypeScript` · `MIT`
+
 ## How I think about it
 
 <img src="assets/architecture.svg" alt="Keeping policy and accounting off the hot path in a streaming gateway" width="100%" />
