@@ -30,16 +30,8 @@ I'm Shrivats. I build software systems, mostly the kind that sit quietly on a cr
 
 A rule of thumb I keep coming back to: keep policy and accounting off the hot path, and let the actual work stream through with as little added latency as possible. The figure is a generic, made-up illustration, not any real system.
 
-## A bit of activity
+<img src="assets/contributions.svg" alt="Contribution heatmap — 356 contributions in the last year" width="100%" />
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=shrivats2&bg_color=E7E0CF&color=17130B&line=C24326&point=17130B&title_color=17130B&hide_border=true&custom_title=Contribution%20activity" alt="Contribution activity graph" width="100%" />
-
-## Tools I reach for
-
-| | |
-|---|---|
-| **Languages** | `Go` &nbsp; `TypeScript` &nbsp; `Rust` &nbsp; `Python` &nbsp; `SQL` |
-| **Systems** | `PostgreSQL` &nbsp; `Redis` &nbsp; `Redis Streams` &nbsp; `WebRTC` &nbsp; `event-driven` &nbsp; `idempotency & reconciliation` |
-| **Platform** | `AWS` &nbsp; `Docker` &nbsp; `CI/CD` &nbsp; `OpenTelemetry` |
+<img src="assets/toolkit.svg" alt="Toolkit — languages, systems, and platform I reach for" width="100%" />
 
 <img src="assets/divider.svg" alt="" width="100%" />
